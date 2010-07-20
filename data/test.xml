@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:KarteikastenSystem xmlns:model="http://de.toedter.karteikastensystem/1.0">
+  <benutzer name="Franca">
+    <karteikaesten vonSprache="englisch">
+      <faecher/>
+      <faecher typ="gelernt"/>
+      <faecher typ="bekannt"/>
+      <faecher typ="gesichert"/>
+      <faecher typ="archiviert"/>
+    </karteikaesten>
+  </benutzer>
+  <benutzer name="Simon"/>
+</model:KarteikastenSystem>

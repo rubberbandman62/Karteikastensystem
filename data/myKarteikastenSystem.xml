@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<kks:KarteikastenSystem xmlns:kks="http://www.iks-gmbh.com/hto/karteikastensystem/1.0.0" filePath="data/myKarteikastenSystem.xml">
+  <benutzer name="Franca">
+    <karteikaesten vonSprache="englisch">
+      <faecher karten="//@karten[id='Haus']"/>
+      <faecher typ="gelernt"/>
+      <faecher typ="bekannt"/>
+      <faecher typ="gesichert"/>
+      <faecher typ="archiviert"/>
+    </karteikaesten>
+  </benutzer>
+  <benutzer name="Mo">
+    <karteikaesten vonSprache="englisch">
+      <faecher karten="//@karten[id='Baum']"/>
+      <faecher typ="gelernt" karten="//@karten[id='Haus']"/>
+      <faecher typ="bekannt"/>
+      <faecher typ="gesichert"/>
+      <faecher typ="archiviert"/>
+    </karteikaesten>
+    <karteikaesten vonSprache="spanisch" nachSprache="englisch">
+      <faecher karten="//@karten[id='Auto']"/>
+      <faecher typ="gelernt"/>
+      <faecher typ="bekannt"/>
+      <faecher typ="gesichert"/>
+      <faecher typ="archiviert"/>
+    </karteikaesten>
+  </benutzer>
+  <benutzer name="Nina"/>
+  <karten id="Haus">
+    <seiten vokabel="Haus" beispiel="Das ist mein Haus."/>
+    <seiten sprache="englisch" vokabel="house" beispiel="This is my house."/>
+    <seiten sprache="franzoesisch"/>
+    <seiten sprache="spanisch"/>
+  </karten>
+  <karten id="Baum">
+    <seiten vokabel="Baum" beispiel="Ich klettere auf den Baum."/>
+    <seiten sprache="englisch" vokabel="tree" beispiel="I climb on the tree."/>
+    <seiten sprache="franzoesisch"/>
+    <seiten sprache="spanisch"/>
+  </karten>
+  <karten id="Auto">
+    <seiten/>
+    <seiten sprache="englisch" vokabel="car" beispiel="There is a car in the street."/>
+    <seiten sprache="franzoesisch"/>
+    <seiten sprache="spanisch" vokabel="coche" beispiel="Hay un coche en la carretera."/>
+  </karten>
+  <karten id="Hund">
+    <seiten/>
+    <seiten sprache="englisch"/>
+    <seiten sprache="franzoesisch"/>
+    <seiten sprache="spanisch"/>
+  </karten>
+</kks:KarteikastenSystem>

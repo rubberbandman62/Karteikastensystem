@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_eB994GFyEd-_9qMG8buz2Q" type="EcoreTools" name="KarteikastenSystem.ecorediag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_eCtkwGFyEd-_9qMG8buz2Q" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_eCtkw2FyEd-_9qMG8buz2Q" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_eCtkxGFyEd-_9qMG8buz2Q" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_hdPsYGr-Ed-1urYvcXhNgg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//KarteikastenSystem/filePath"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hdPsYWr-Ed-1urYvcXhNgg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eCtkxWFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eCtkxmFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eCtkx2FyEd-_9qMG8buz2Q"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eCtkyGFyEd-_9qMG8buz2Q" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_9bDX4Gr6Ed-1urYvcXhNgg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//KarteikastenSystem/addBenutzer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9bDX4Wr6Ed-1urYvcXhNgg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_SgzCkGr7Ed-1urYvcXhNgg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//KarteikastenSystem/addKarte"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SgzCkWr7Ed-1urYvcXhNgg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eCtkyWFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eCtkymFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eCtky2FyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eCtkwWFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="KarteikastenSystem.ecore#//KarteikastenSystem"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eCtkwmFyEd-_9qMG8buz2Q" x="402" y="978"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_eCtkzGFyEd-_9qMG8buz2Q" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_eCtkz2FyEd-_9qMG8buz2Q" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_eCtk0GFyEd-_9qMG8buz2Q" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_eCtk2GFyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Person/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eCtk2WFyEd-_9qMG8buz2Q"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eCtk0WFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eCtk0mFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eCtk02FyEd-_9qMG8buz2Q"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eCtk1GFyEd-_9qMG8buz2Q" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_sxpNEGrjEd-1urYvcXhNgg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Person/getKarteikasten"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sxpNEWrjEd-1urYvcXhNgg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_G1hwcGsKEd-1urYvcXhNgg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Person/addKarteikasten"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_G1hwcWsKEd-1urYvcXhNgg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eCtk1WFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eCtk1mFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eCtk12FyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eCtkzWFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="KarteikastenSystem.ecore#//Person"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eCtkzmFyEd-_9qMG8buz2Q" x="30" y="804"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_eCtk2mFyEd-_9qMG8buz2Q" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_eC3VwGFyEd-_9qMG8buz2Q" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_eC3VwWFyEd-_9qMG8buz2Q" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_eC3VyWFyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Karteikasten/vonSprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3VymFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eC3Vy2FyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Karteikasten/nachSprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3VzGFyEd-_9qMG8buz2Q"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eC3VwmFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eC3Vw2FyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eC3VxGFyEd-_9qMG8buz2Q"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eC3VxWFyEd-_9qMG8buz2Q" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_lWxFMGsKEd-1urYvcXhNgg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karteikasten/getFach"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lWxFMWsKEd-1urYvcXhNgg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xXqrQGsKEd-1urYvcXhNgg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karteikasten/addFach"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xXqrQWsKEd-1urYvcXhNgg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_RbTl0GvaEd-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karteikasten/moveKarteUp"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RbTl0WvaEd-v6bzB6Dkymw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_kwdDEGx-Ed-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karteikasten/moveKarteDown"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kwdDEWx-Ed-v6bzB6Dkymw"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eC3VxmFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eC3Vx2FyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eC3VyGFyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eCtk22FyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="KarteikastenSystem.ecore#//Karteikasten"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eCtk3GFyEd-_9qMG8buz2Q" x="60" y="588"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_eC3VzWFyEd-_9qMG8buz2Q" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_eC3V0GFyEd-_9qMG8buz2Q" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_eC3V0WFyEd-_9qMG8buz2Q" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_eC3V1WFyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Sprache/deutsch"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V1mFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eC3V12FyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Sprache/englisch"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V2GFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eC3V2WFyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Sprache/spanisch"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V2mFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eC3V22FyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Sprache/franzoesisch"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V3GFyEd-_9qMG8buz2Q"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eC3V0mFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eC3V02FyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eC3V1GFyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eC3VzmFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="KarteikastenSystem.ecore#//Sprache"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eC3Vz2FyEd-_9qMG8buz2Q" x="36" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_eC3V3WFyEd-_9qMG8buz2Q" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_eC3V4GFyEd-_9qMG8buz2Q" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_eC3V4WFyEd-_9qMG8buz2Q" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_eC3V6WFyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Fach/typ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V6mFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_HMNtgJAqEd-4KKFkrVneVg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Fach/anzahlKarten"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HMNtgZAqEd-4KKFkrVneVg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_0sHIAJAsEd-4KKFkrVneVg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Fach/anzahlUnbekannt"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0sHIAZAsEd-4KKFkrVneVg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eC3V4mFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eC3V42FyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eC3V5GFyEd-_9qMG8buz2Q"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eC3V5WFyEd-_9qMG8buz2Q" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_MVibUGvZEd-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Fach/addKarte"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MVibUWvZEd-v6bzB6Dkymw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_yQ70gGvZEd-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Fach/removeKarte"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yQ70gWvZEd-v6bzB6Dkymw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-5nzUGvZEd-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Fach/getNextKarte"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-5nzUWvZEd-v6bzB6Dkymw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="__z0m0JAtEd-4KKFkrVneVg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Fach/getAnzahlKartenInFolgeGewusst"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__z0m0ZAtEd-4KKFkrVneVg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eC3V5mFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eC3V52FyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eC3V6GFyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eC3V3mFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="KarteikastenSystem.ecore#//Fach"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eC3V32FyEd-_9qMG8buz2Q" x="96" y="414"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_eC3V62FyEd-_9qMG8buz2Q" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_eC3V7mFyEd-_9qMG8buz2Q" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_eC3V72FyEd-_9qMG8buz2Q" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_eC3V82FyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Karteifachtyp/neu"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V9GFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eC3V9WFyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Karteifachtyp/gelernt"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V9mFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eC3V92FyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Karteifachtyp/bekannt"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eC3V-GFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eDBGwGFyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Karteifachtyp/gesichert"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBGwWFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eDBGwmFyEd-_9qMG8buz2Q" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="KarteikastenSystem.ecore#//Karteifachtyp/archiviert"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBGw2FyEd-_9qMG8buz2Q"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eC3V8GFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eC3V8WFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eC3V8mFyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eC3V7GFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="KarteikastenSystem.ecore#//Karteifachtyp"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eC3V7WFyEd-_9qMG8buz2Q" x="240" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_eDBGxGFyEd-_9qMG8buz2Q" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_eDBGx2FyEd-_9qMG8buz2Q" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_eDBGyGFyEd-_9qMG8buz2Q" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_eDBG0GFyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Karte/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG0WFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_i-ugQJAsEd-4KKFkrVneVg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Karte/anzahlGewusstInFolge"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_i-ugQZAsEd-4KKFkrVneVg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eDBGyWFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eDBGymFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eDBGy2FyEd-_9qMG8buz2Q"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDBGzGFyEd-_9qMG8buz2Q" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_cndGsWtBEd-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karte/beschrifteSeite"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cndGsmtBEd-v6bzB6Dkymw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lwNlgGtCEd-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karte/getSeite"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwNlgWtCEd-v6bzB6Dkymw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_t9H1MGtFEd-v6bzB6Dkymw" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karte/addSeite"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_t9H1MWtFEd-v6bzB6Dkymw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_qVP6gJAvEd-4KKFkrVneVg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karte/richtig"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qVP6gZAvEd-4KKFkrVneVg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zuqg8JAvEd-4KKFkrVneVg" type="2002">
+        <element xmi:type="ecore:EOperation" href="KarteikastenSystem.ecore#//Karte/falsch"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zuqg8ZAvEd-4KKFkrVneVg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eDBGzWFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eDBGzmFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eDBGz2FyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eDBGxWFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="KarteikastenSystem.ecore#//Karte"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eDBGxmFyEd-_9qMG8buz2Q" x="312" y="240"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_eDBG0mFyEd-_9qMG8buz2Q" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_eDBG1WFyEd-_9qMG8buz2Q" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_eDBG1mFyEd-_9qMG8buz2Q" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_eDBG3mFyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Kartenseite/sprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG32FyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eDBG4GFyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Kartenseite/vokabel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG4WFyEd-_9qMG8buz2Q"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eDBG4mFyEd-_9qMG8buz2Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="KarteikastenSystem.ecore#//Kartenseite/beispiel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG42FyEd-_9qMG8buz2Q"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eDBG12FyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eDBG2GFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eDBG2WFyEd-_9qMG8buz2Q"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDBG2mFyEd-_9qMG8buz2Q" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_eDBG22FyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eDBG3GFyEd-_9qMG8buz2Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eDBG3WFyEd-_9qMG8buz2Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_eDBG02FyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="KarteikastenSystem.ecore#//Kartenseite"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eDBG1GFyEd-_9qMG8buz2Q" x="444" y="30"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_eB994WFyEd-_9qMG8buz2Q"/>
+  <element xmi:type="ecore:EPackage" href="KarteikastenSystem.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_eDBG5GFyEd-_9qMG8buz2Q" type="3002" source="_eCtkwGFyEd-_9qMG8buz2Q" target="_eCtkzGFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDBG6GFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG6WFyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDBG6mFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG62FyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDBG5WFyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDBG5mFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//KarteikastenSystem/benutzer"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDBG52FyEd-_9qMG8buz2Q" points="[0, 0, 236, 60]$[-236, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDomGFyEd-_9qMG8buz2Q" id="(0.2490272373540856,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDomWFyEd-_9qMG8buz2Q" id="(0.4987405541561713,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDBG7GFyEd-_9qMG8buz2Q" type="3002" source="_eCtkwGFyEd-_9qMG8buz2Q" target="_eDBGxGFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDBG8GFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG8WFyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDBG8mFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG82FyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDBG7WFyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDBG7mFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//KarteikastenSystem/karten"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDBG72FyEd-_9qMG8buz2Q" points="[0, 0, 0, 621]$[0, -621, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDonmFyEd-_9qMG8buz2Q" id="(0.4980544747081712,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDon2FyEd-_9qMG8buz2Q" id="(0.4988399071925754,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDBG9GFyEd-_9qMG8buz2Q" type="3002" source="_eCtkzGFyEd-_9qMG8buz2Q" target="_eCtk2mFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDBG-GFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG-WFyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDBG-mFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBG-2FyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDBG9WFyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDBG9mFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//Person/karteikaesten"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDBG92FyEd-_9qMG8buz2Q" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9ysniGvZEd-v6bzB6Dkymw" id="(0.4987405541561713,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9ysniWvZEd-v6bzB6Dkymw" id="(0.4984984984984985,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDBG_GFyEd-_9qMG8buz2Q" type="3002" source="_eCtk2mFyEd-_9qMG8buz2Q" target="_eC3V3WFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDBHAGFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBHAWFyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDBHAmFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDBHA2FyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDBG_WFyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDBG_mFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//Karteikasten/faecher"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDBG_2FyEd-_9qMG8buz2Q" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9ysnimvZEd-v6bzB6Dkymw" id="(0.4984984984984985,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9ysni2vZEd-v6bzB6Dkymw" id="(0.4981132075471698,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDBHBGFyEd-_9qMG8buz2Q" type="3002" source="_eCtk2mFyEd-_9qMG8buz2Q" target="_eCtkzGFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDKQsmFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQs2FyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDKQtGFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQtWFyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDBHBWFyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDKQsGFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//Karteikasten/person"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDKQsWFyEd-_9qMG8buz2Q" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ynqqgGx-Ed-v6bzB6Dkymw" id="(0.4984984984984985,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ynqqgWx-Ed-v6bzB6Dkymw" id="(0.4987405541561713,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDKQtmFyEd-_9qMG8buz2Q" type="3002" source="_eC3V3WFyEd-_9qMG8buz2Q" target="_eDBGxGFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDKQumFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQu2FyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDKQvGFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQvWFyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDKQt2FyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDKQuGFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//Fach/karten"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDKQuWFyEd-_9qMG8buz2Q" points="[0, 0, -192, 60]$[192, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDolGFyEd-_9qMG8buz2Q" id="(0.4981132075471698,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDolWFyEd-_9qMG8buz2Q" id="(0.2482598607888631,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDKQvmFyEd-_9qMG8buz2Q" type="3002" source="_eC3V3WFyEd-_9qMG8buz2Q" target="_eCtk2mFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDKQwmFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQw2FyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDKQxGFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQxWFyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDKQv2FyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDKQwGFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//Fach/karteikasten"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDKQwWFyEd-_9qMG8buz2Q" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ynqqgmx-Ed-v6bzB6Dkymw" id="(0.4981132075471698,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ynqqg2x-Ed-v6bzB6Dkymw" id="(0.4984984984984985,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDKQxmFyEd-_9qMG8buz2Q" type="3002" source="_eDBGxGFyEd-_9qMG8buz2Q" target="_eDBG0mFyEd-_9qMG8buz2Q">
+    <children xmi:type="notation:Node" xmi:id="_eDKQymFyEd-_9qMG8buz2Q" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQy2FyEd-_9qMG8buz2Q" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_eDKQzGFyEd-_9qMG8buz2Q" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eDKQzWFyEd-_9qMG8buz2Q" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDKQx2FyEd-_9qMG8buz2Q" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDKQyGFyEd-_9qMG8buz2Q" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="KarteikastenSystem.ecore#//Karte/seiten"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDKQyWFyEd-_9qMG8buz2Q" points="[0, 0, 0, 111]$[0, -111, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDommFyEd-_9qMG8buz2Q" id="(0.4988399071925754,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eEDom2FyEd-_9qMG8buz2Q" id="(0.5,1.0)"/>
+  </edges>
+</notation:Diagram>
